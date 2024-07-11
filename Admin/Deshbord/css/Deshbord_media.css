@@ -1,0 +1,119 @@
+@media screen and (max-width:600px){
+
+    .home_container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 12px;
+        height: 100%;
+         width: 100%;
+         flex-direction: column;
+        }.home_container .left{
+            display: none;
+        }.home_container .mobile_button{
+            position:fixed;
+            bottom: 12px;
+            width:90%;
+            margin: auto;
+            display: flex;
+            border-radius: 20px;
+            z-index: 3;user-select: none;
+            justify-content: space-around;
+            align-items: center;
+   
+            background: rgba(255, 255, 255, 0.937);
+         
+        }.home_container .mobile_button li{
+            list-style: none;
+        cursor: pointer;
+        }.mobile_button li i{
+            font-weight: bold;
+            font-size: 34px;
+            padding: 9px;
+           
+        }.mobile_button li a{
+            text-decoration: none;
+        
+        }
+        .home_container .right{
+            width: 100% !important;
+            display: flex;
+            overflow-y: scroll;
+            height:auto;
+            padding: 0px;
+            flex-direction: column;
+        
+   
+        }.right .cards_data{
+           flex-direction: column;
+           width: 100%;
+        } .right .container{
+            width:100%;
+            overflow: hidden;
+        height:auto;
+            padding: 20px;
+            margin-top: 12px;
+            
+        }.right .container .card_header{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-direction: column;
+        
+        }.statics .statics_containr{
+            display: none;
+        }
+       
+        .statics{
+            display: none;
+        }
+        header .mid{
+            display: none !important;
+        }
+.User_profile .img-cont{
+ width: 150px !important;
+ height: 150px !important;
+ border-radius: 50%;
+ overflow: hidden;
+
+ border: 3px solid rgba(30, 255, 0, 0.635);
+}
+
+    
+}
+@media screen and (min-width:600px){
+  
+    .home_container .mobile_button{
+        display: none;
+    }.home_container .right{
+        width: 78%;
+        display: flex;
+        overflow-y: scroll;
+        height: 85vh;
+        padding: 12px;
+        flex-direction: column;
+ 
+    
+    
+    }.right .cards_data{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }.right .container .card_header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    
+    }.User_profile .img-cont{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 3px solid rgba(30, 255, 0, 0.635);
+       }
+           
+       
+
+ 
+}

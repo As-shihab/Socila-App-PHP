@@ -1,0 +1,358 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+  
+  font-family: 'Poppins', sans-serif;
+  background: #fff;
+}
+body a{
+    text-decoration: none;
+}
+header
+{
+  display: flex;
+  
+  top: 0;
+  width: 100%;
+  background:#FAFBFFF7;
+  justify-content: space-around;
+  align-items: center;padding: 7px 0px;
+}header .left i{
+  font-size: 25px;
+}header .mid h1 a {
+  text-decoration: none;
+  font-weight: bold;
+}
+.home{
+  background:linear-gradient(45deg,#FFFFFF,#F8EAFF,#EAF9FF,#FEFFFD);
+  
+  padding-bottom: 23px;
+}
+.home div h1{
+  font-size: 45px;
+  text-align: center;
+  font-weight: 500;
+  
+  
+}
+div h1 span:first-child{
+  color: #D541FF;
+}
+div h1 span:last-child{
+  color:#4196FF;
+}
+.cards .img-cont{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+  border: 3px solid #86FF7F;
+}.img-cont  img
+{
+  width: 100%;
+
+}.cards{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}.card-cont{
+  width: 100%;
+ 
+ z-index: 1;
+}.cards .content-text{
+  width: 100%;
+  
+} .content-text  h4{
+  text-align: center;
+  
+}.content-text h4 a{
+  text-decoration: none;
+  color: #42445A;
+}
+.login-cont{
+ height: 100vh;
+  display:flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+}a{
+  text-decoration:none;
+}
+footer .logo-container{
+  display:flex;
+  align-items: center;
+  width: 100%;
+  
+  
+}
+.logo-container .logo div{
+  
+ width: 80px;
+ height: 50px;
+  
+}.logo img{
+  width: 100%;
+}.logo-container .text {
+  position: relative;
+  top: 4px;
+}
+.footer-cont{
+  font-size: 12px;
+}
+footer .link   
+{
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+}
+::-webkit-scrollbar{
+  display: none;
+}.static{
+  justify-content:space-between;
+  align-content: center;
+  padding: 8px;
+}.static .stc-name{
+  width:20%;
+}
+.static .stc-rang{
+  width: 80%;
+ 
+  display: flex;
+ align-items: center;
+  
+  
+}.stc-rang .rng1
+{
+  width: 100%;
+  height: 1em;
+  background:linear-gradient(45deg,#4BB6FF, #A74BFF);
+  border-radius: 20px;
+  animation-name: rang1;
+  animation-duration: 9s;
+}
+@keyframes rang1{
+  
+from{
+  width: 0%
+}
+to{
+  width: 100%;
+}
+  
+}
+
+
+
+
+.stc-rang .rng2
+{
+  width: 90%;
+  height: 1em;
+  background:linear-gradient(45deg,#4BB6FF, #A74BFF);
+  border-radius: 20px;
+  animation-name: rang2;
+  animation-duration: 9s;
+}
+@keyframes rang2{
+  
+from{
+  width: 0%
+}
+to{
+  width: 90%;
+}
+  
+}
+
+
+
+
+.stc-rang .rng3
+{
+  width: 60%;
+  height: 1em;
+  background:linear-gradient(45deg,#4BB6FF, #A74BFF);
+  border-radius: 20px;
+  animation-name: rang3;
+  animation-duration: 9s;
+}
+@keyframes rang3{
+  
+from{
+  width: 0%
+}
+to{
+  width: 60%;
+}
+  
+}
+
+
+
+
+.stc-rang .rng4
+{
+  width: 75%;
+  height: 1em;
+  background:linear-gradient(45deg,#4BB6FF, #A74BFF);
+  border-radius: 20px;
+  animation-name: rang4;
+  animation-duration: 9s;
+}
+@keyframes rang4{
+  
+from{
+  width: 0%
+}
+to{
+  width: 75%;
+}
+  
+}
+
+
+
+.stc-rang .rng5
+{
+  width: 70%;
+  height: 1em;
+  background:linear-gradient(45deg,#4BB6FF, #A74BFF);
+  border-radius: 20px;
+  animation-name: rang5;
+  animation-duration: 9s;
+}
+@keyframes rang5{
+  
+from{
+  width: 0%
+}
+to{
+  width: 70%;
+}
+  
+}
+
+
+
+
+.stc-rang .rng6
+{
+  width: 90%;
+  height: 1em;
+  background:linear-gradient(45deg,#4BB6FF, #A74BFF);
+  border-radius: 20px;
+  animation-name: rang6;
+  animation-duration: 9s;
+}
+@keyframes rang6{
+  
+from{
+  width: 0%
+}
+to{
+  width: 90%;
+}
+  
+}
+
+
+
+
+
+.stc-rang .rng7
+{
+  width: 60%;
+  height: 1em;
+  background:linear-gradient(45deg,#4BB6FF, #A74BFF);
+  border-radius: 20px;
+  animation-name: rang7;
+  animation-duration: 9s;
+}
+@keyframes rang7{
+  
+from{
+  width: 0%
+}
+to{
+  width: 60%;
+}
+  
+}
+
+
+
+
+.stc-rang .rng8
+{
+  width: 100%;
+  height: 1em;
+  background:linear-gradient(45deg,#4BB6FF, #A74BFF);
+  border-radius: 20px;
+  animation-name: rang8;
+  animation-duration: 9s;
+}
+@keyframes rang8{
+  
+from{
+  width: 0%
+}
+to{
+  width: 100%;
+}
+  
+}
+
+.link ul li{
+  list-style: none;
+  color: #495E5E;
+}
+.link ul{
+  position: relative;
+  right: 8px;
+}
+.ac{
+  padding: 5px 43px;
+  justify-content: space-around;
+  align-items: center;
+}.wel-sm-p{
+  font-size: 14px;
+}
+.scrolling-ber {
+  display: grid;
+  grid-auto-columns: calc(100%/3)-12px;
+  grid-auto-flow: column;
+  overflow: hidden;
+  gap: 12px;
+  z-index: 0;
+}.scrolling-ber .card{
+  width: 320px;
+  height: 400px;
+flex-direction: column;
+  display: flex;
+  justify-content: center;
+  padding: 12px;
+  align-items: center;
+
+  overflow: hidden;
+}
+.card .img-container{
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+  padding: 12px;
+  border-radius: 50%;
+  border: 2px solid blue;
+
+}
+.img-container img{
+  object-fit: cover;
+  width: 100%;
+  user-select: none;
+}
